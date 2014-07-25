@@ -20,3 +20,5 @@ File descriptions:
    simulateHetGenosV02.py - Python script to generate a simulated dataset. Not a deterministic simulation.
 
    RqtlSDCOsToMissing.py - Python script to take R/qtl csvr formatted data and set short double crossovers to missing.
+
+   simulated_genotypes_manuscript_rqtl_DEV.csv - A small subset of simulated_genotypes_manuscript.rqtl.csv for testing.
