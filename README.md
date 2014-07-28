@@ -5,7 +5,7 @@ Example script and simulation data to use the Truong and McCormick et al. (2014)
 
 File descriptions:
 
-   genotype_probabilities_with_excess_heterozygosity.m - Matlab M file to derive the general solution for the probability of a marker in a genotype class given a selfing population, a finite generation interval, and heterozygosity maintained per generation other than 0.5.
+   genotype_probabilities_with_excess_heterozygosity.m - Matlab M-file to derive the general solution for the probability of a marker in a genotype class given a selfing population, a finite generation interval, and heterozygosity maintained per generation other than 0.5.
 
    exampleForExHetEstimation.R - R script to obtain and compile the modified R/qtl code base that contains the est.rf.exHet() function and examples to run it on the provided simulated dataset.
 
