@@ -36,17 +36,17 @@ LILI_TABLE = []   #Global list of lists that will contain the genotypes and be m
 #### Converting short range DCOs to missing
 
 if len(sys.argv) <= 1:
-    print("ConvertSingletonsToMissing.py input.csv")
+    print("RqtlSDCOsToMissing.py input.csv")
     sys.exit()
 if sys.argv[1] == "--help" or sys.argv[1] == "-h":
-    print("ConvertSingletonsToMissing.py input.csv")
+    print("RqtlSDCOsToMissing.py input.csv")
     sys.exit()
 try:
     LILI_TABLE = [line.strip() for line in open(sys.argv[1])]
     LILI_TABLE = [element.split(',') for element in LILI_TABLE]
 except IOError:
     print("Cannot open target file. Please check your input:")
-    print("\t$ python ConvertSingletonsToMissing.py input.csv")
+    print("\t$ python RqtlSDCOsToMissing.py input.csv")
     sys.exit()
 
 bool_keepSDCO = False
