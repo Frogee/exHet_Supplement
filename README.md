@@ -13,7 +13,7 @@ File descriptions:
 
    simulated_genotypes_manuscript_rqtl.csv - Error-free simulated genotypes in R/qtl format.
 
-   simulated_genotypes_maniscrupt_errors_and_missing_rqtl.csv - Simulated genotypes with 1% error rate and 5% missingness rate in R/qtl format.
+   simulated_genotypes_manuscript_errors_and_missing_rqtl.csv - Simulated genotypes with 1% error rate and 5% missingness rate in R/qtl format.
 
    simulated_genotypes_manuscript_errors_and_missing_rqtl_mapEstimated.csv - Simulated genotypes with 1% error rate and 5% missingness rate in R/qtl format output after an initial map estimation prior to removal of tight double recombinations (aka short double crossovers, or SDCOs).
 
