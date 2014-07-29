@@ -19,6 +19,8 @@ File descriptions:
 
    simulated_genotypes_manuscript_errors_and_missing_rqtl_mapEstimated.csv-SDCOsToMissingV02 - Simulated genotypes with 1% error rate and 5% missingness rate in R/qtl format after SDCOs less than 2cM have been removed.
 
+   map_estimation_results.* - spreadsheets in .ods format and .xlsx format containing the results of map estimation using different methods for the simulated and real data sets.
+
    simulateHetGenosV02.py - Python script to generate a simulated dataset. Not a deterministic simulation.
 
    RqtlSDCOsToMissing.py - Python script to take R/qtl csvr formatted data and set short double crossovers to missing.
